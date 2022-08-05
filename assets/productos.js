@@ -6,7 +6,8 @@ productos=[
         precio:2.382,
         descripcion:'16¨ WQXGA IPS 165HZ/RYZEN 9 5900HX/16GB-1TB SSD/RTX 3080 16GB/WIN 11 HOME/BACKLIT KEYBOARD/STORM GREY💻',
         estado:'En stock',
-        tendencia:true},
+        tendencia:true,
+        marca:'msi'},
     {   
         id:'#002',
         nombre:'NOTEBOOK MSI GS66 STEALTH 11UG-275US P/N 9S7-16V412-454 GAMING 🕹️',

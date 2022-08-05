@@ -8,7 +8,7 @@
     <script src="./productos.js"></script>
     <script src="./funcion_catalogo.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
 <body onload ="init_productos()">
     <header class="sticky">
         <nav class="nav">
-            <img src="./media/icon.jpeg" class="reajuste_icon">
+            <img src="./media/icon.png" class="reajuste_icon">
             <ul class="ul_nav">
                 <li class="color_letras"><a href="./apple.html">Apple</a></li>
                 <li class="color_letras"><a href="./gaming.html">Gaming</a></li>
@@ -43,60 +43,22 @@
 
                 <!--Sector opcion busqueda Marcas-->
                 <div>
-                    <div class="form-check">
-                        <h5>Marcas</h5>
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">Apple</label>
+                    <div id="boton_busqueda_apple" class="boton_busqueda">
+                        <h5 class="texto_boton_busq">Apple</h5>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                        <label class="form-check-label" for="defaultCheck2">Lenovo</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
-                        <label class="form-check-label" for="defaultCheck1">AlienWare</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
-                        <label class="form-check-label" for="defaultCheck2">MSI</label>
-                    </div>
-                </div>
 
-                <!--Sector opcion busqueda tipo de producto-->
-                <div>
-                    <div class="form-check">
-                        <h5>Tipo</h5>
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">Accesorios</label>
+                    <div id="boton_busqueda_gaming" class="boton_busqueda">
+                        <h5 class="texto_boton_busq">Gaming</h5>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                        <label class="form-check-label" for="defaultCheck2">Auriculares</label>
+
+                    <div id="boton_busqueda_mineria" class="boton_busqueda">
+                        <h5 class="texto_boton_busq">Minería</h5>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
-                        <label class="form-check-label" for="defaultCheck1">Smartphones</label>
+
+                    <div id="boton_busqueda_accesorios" class="boton_busqueda">
+                        <h5 class="texto_boton_busq">Accesorios</h5>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
-                        <label class="form-check-label" for="defaultCheck2">Tablets/Ipads</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
-                        <label class="form-check-label" for="defaultCheck1">SmartWatch</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
-                        <label class="form-check-label" for="defaultCheck2">Monitores</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
-                        <label class="form-check-label" for="defaultCheck1">Periféricos</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
-                        <label class="form-check-label" for="defaultCheck2">Placas de video</label>
-                    </div>
+
                 </div>
             </div>
 

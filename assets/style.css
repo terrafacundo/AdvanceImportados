@@ -24,8 +24,10 @@ a:hover{
 }
 
 .reajuste_icon{
-    width: 4VW;
-    height: 5VH;
+    position: relative;
+    top: -40%;
+    width: 4%;
+    height: 200%;
 }
 
 .nav_elements_list{
@@ -226,4 +228,24 @@ a:hover{
 .sector_busqueda_filtros{
     padding-left: 5vw;
     padding-right: 1vw;
+    
+}
+
+#contenedor_resultados{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.boton_busqueda{
+    width: 9vw;
+    background-color: rgb(195, 195, 249);
+    text-align: center;
+    border-radius: 7.5px;
+    margin: 2.5vh;
+}
+
+.texto_boton_busq{
+    font-size:1.25rem;
+    font-weight: 700;
 }

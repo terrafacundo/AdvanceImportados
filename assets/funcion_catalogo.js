@@ -1,12 +1,24 @@
 function init_productos(){
 //funcion en pag catalogo
-
+//tomando nodos
 let contenedor_productos_catalogo = document.getElementById("contenedor_resultados");
+let ap_checkbox = document.getElementById("apple_checkbox");
+let le_checkbox = document.querySelectorAll(".le_checkbox");
+let al_checkbox = document.querySelectorAll(".al_checkbox");
+let msi_checkbox = document.getElementById("defaultCheck4");
+let acc_checkbox = document.getElementById("acc_checkbox");
+let au_checkbox = document.querySelectorAll(".au_checkbox");
+let sm_checkbox = document.querySelectorAll(".sm_checkbox");
+let ta_checkbox = document.querySelectorAll(".ta_checkbox");
+let wa_checkbox = document.querySelectorAll(".wa_checkbox");
+let mo_checkbox = document.querySelectorAll(".mo_checkbox");
+let pe_checkbox = document.querySelectorAll(".pe_checkbox");
+let pv_checkbox = document.querySelectorAll(".pv_checkbox");
 
-console.log(contenedor_productos_catalogo);
 
-function generadora_catalogo(producto){
-    for (const producto of productos){
+//
+function generadora_catalogo(y){
+    for (const producto of y){
             let tarjeta_producto_catalogo = document.createElement("div");
             let foto_producto_catalogo = document.createElement("div");
             let nombre_producto_catalogo = document.createElement("h2");
@@ -32,7 +44,12 @@ function generadora_catalogo(producto){
     }
     }
 
-    //instanciando en el DOM
-    generadora_catalogo();
 
+    
+//
+
+
+
+    //instanciando en el DOM
+    generadora_catalogo(productos);
 }
