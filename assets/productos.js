@@ -7,7 +7,8 @@ productos=[
         descripcion:'16¨ WQXGA IPS 165HZ/RYZEN 9 5900HX/16GB-1TB SSD/RTX 3080 16GB/WIN 11 HOME/BACKLIT KEYBOARD/STORM GREY💻',
         estado:'En stock',
         tendencia:true,
-        marca:'msi'},
+        marca:'msi',
+        categoria:'gaming'},
     {   
         id:'#002',
         nombre:'NOTEBOOK MSI GS66 STEALTH 11UG-275US P/N 9S7-16V412-454 GAMING 🕹️',
@@ -15,7 +16,8 @@ productos=[
         precio:2.310,
         descripcion:'15.6¨ QHD IPS 165HZ/I9-11900H/32GB-1TB SSD/RTX 3070 8GB/BACKLIT KEYBOARD/WIN 10/BLACK💻',
         estado:'En stock',
-        tendencia:true},
+        tendencia:true,
+        categoria:'gaming'},
     {   
         id:'#003',
         nombre:'NOTEBOOK LENOVO LEGION 5 15ACH6H 82JU00N0US GAMING🕹️',
@@ -23,7 +25,8 @@ productos=[
         precio:1.649,
         descripcion:'15.6¨ FHD WVA/RYZEN 7 5800H/16GB-1TB SSD + 1TB HDD/RTX 3070/WIN 11 HOME/STINGRAY💻',
         estado:'En stock',
-        tendencia:true},
+        tendencia:true,
+        categoria:'notebook'},
     {   
         id:'#004',
         nombre:'NOTEBOOK DELL ALIENWARE M15R4 AWM15R4-7726BLK-PUS GAMING🕹️',

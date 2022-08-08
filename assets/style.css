@@ -16,6 +16,15 @@ a:hover{
     color: #ffffff;
 }
 
+.hidden{
+    display: none;
+    visibility: hidden;
+}
+
+.active{
+    
+}
+
 
 /*Nav*/
 /*Color y ajustes detalles*/
@@ -228,6 +237,13 @@ a:hover{
 .sector_busqueda_filtros{
     padding-left: 5vw;
     padding-right: 1vw;
+    background-color: #d9d9d9;
+    width: 18vw;
+    height: 50vh;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    padding: 1.5vw;
+    border-radius: 5px;
     
 }
 
@@ -239,13 +255,37 @@ a:hover{
 
 .boton_busqueda{
     width: 9vw;
-    background-color: rgb(195, 195, 249);
-    text-align: center;
+    text-align: start;
     border-radius: 7.5px;
     margin: 2.5vh;
 }
 
 .texto_boton_busq{
-    font-size:1.25rem;
-    font-weight: 700;
+    font-size:1.15rem;
+    font-weight: 500;
+    color: #ffffff;
 }
+
+.boton_busqueda_svg{
+    transform: scale(0.75,0.75);
+}
+
+#input_busqueda_productos{
+    width: 15vw;
+    height: 5.5vh;
+}
+
+#envio_boton_busqueda_productos{
+    border: none;
+    position: relative;
+    left: -4.5vw;
+    top: -1.6vh;
+}
+.envio_boton_busqueda_productos{
+    display: none;
+}
+
+#envio_boton_busqueda_productos:hover{
+    transform: scale(1,1)!important;
+}
+
